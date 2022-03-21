@@ -15,6 +15,7 @@ module.exports = {
   },
   mode: "development", //activamos el modo desarrollo
   watch: true, //Para que el proyecto se compile de manera automatica!
+  devtool: "source-map", //Habilitamos los webpack devtools y los visualizamos como un mapa.
   resolve: {
     extensions: [".js"],
     alias: {
