@@ -1,0 +1,6 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": ["@babel/plugin-transform-runtime"]
+}
+
+//Luego de esto procedemos a configurar webpack para que pueda trabajar con estos recursos.
